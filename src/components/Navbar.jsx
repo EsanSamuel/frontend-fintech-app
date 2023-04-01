@@ -73,7 +73,7 @@ const Navbar = () => {
                            <Link to='/'><li className='mt-[20px]'>Home</li></Link> 
                            <Link to='/form'><li className='mt-[20px]'>Transact</li></Link>
                            <Link to='/api'><li className='mt-[20px]'>Coin Ranking</li></Link>
-                            <li className='mt-[20px]'>Charts</li>
+                            <Link to='/chart'><li className='mt-[20px]'>Charts</li></Link>
                         </ul>
                     </div>
                 )}
